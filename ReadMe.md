@@ -66,4 +66,4 @@ xxxxxxxxxxxxxxxxxx
 
 ## Demonstration
 
-![Demo](./Develop/assets/demo/Untitled_%20Sep%203,%202023%205_48%20PM.webm)
+![Demo](./Develop/assets/demo/Untitled_%20Sep%203,%202023%205_48%20PM.gif)
