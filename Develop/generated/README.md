@@ -1,4 +1,4 @@
-# test12
+# ReadMe Generator
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Table of Contents
@@ -12,19 +12,19 @@
   
   
   ## Description
-  a readme generator
+  a project in the integrated terminal that generates readme files using node
 
   ## Languages
-  inquirer, node
+  node inquirerer
   
   ## Contributors
   classmates, class resources
 
   ## Creator
-  kenneth lau
+  ken lau
 
   ## Email
-  Ken.fake@gmail.com
+  ken.lau.fake@gmail.com
 
   ## GitHub
   kenlau94
