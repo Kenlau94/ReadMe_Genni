@@ -33,33 +33,34 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   * [Description](#description)
-  * [Language and Technology](#languageTech)
-  * [Dependencies](#require)
+  * [Languages](#languages)
   * [Contributors](#contributors)
-  * [Creator](#name)
+  * [Creator](#creator)
   * [Email](#email)
-  * [Deployed Application](#application)
+  * [GitHub](#github)
   * [Testing](#testing)
   
   
   ## Description
   ${data.description}
-  ## Language and Technology
-  ${data.languageTech}
-  ## Dependencies
-  ${data.require}
+
+  ## Languages
+  ${data.languages}
+  
   ## Contributors
   ${data.contributors}
+
   ## Creator
-  ${data.name}
+  ${data.creator}
+
   ## Email
   ${data.email}
+
+  ## GitHub
+  ${data.github}
+  
   ## Testing
-  ${data.test}
-  ## Deployed Application URL
-  ${data.application}
-  ## Screenshot
-  ![alt-text](${data.testing})
+  ${data.testing}
 `;
 }
 

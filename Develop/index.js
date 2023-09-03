@@ -24,12 +24,12 @@ const questions = [
   },
   {
     type: "input",
-    name: "creator",
+    name: "github",
     message: "Write GitHub username",
   },
   {
     type: "input",
-    name: "name",
+    name: "creator",
     message: "Write your full name",
   },
   {
@@ -42,21 +42,21 @@ const questions = [
     name: "contributors",
     message: "List of any contributors",
   },
+  //   {
+  //     type: "input",
+  //     name: "dep",
+  //     message: "List of your Project Dependencies",
+  //   },
   {
     type: "input",
-    name: "require",
-    message: "List of your Project Dependancies",
+    name: "languages",
+    message: "List of languages and dependencies",
   },
-  {
-    type: "input",
-    name: "languageTech",
-    message: "List of languages/technology",
-  },
-  {
-    type: "input",
-    name: "application",
-    message: "link to deployed app",
-  },
+  //   {
+  //     type: "input",
+  //     name: "link",
+  //     message: "link to deployed app",
+  //   },
 
   {
     type: "input",
@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((responses) => {
-    console.log("Creating Professional README.md File...");
+    console.log("Created File");
     writeToFile("./generated/README.md", generateMarkdown({ ...responses }));
   });
 }
