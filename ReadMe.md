@@ -62,6 +62,6 @@ THEN I am taken to the corresponding section of the README
 
 ## Link GitHub
 
-[GitHub]: https://kenlau94.github.io/ReadMe_Genni/
+[GitHub](https://kenlau94.github.io/ReadMe_Genni/)
 
 ## Demonstration
