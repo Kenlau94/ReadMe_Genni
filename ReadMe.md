@@ -62,8 +62,6 @@ THEN I am taken to the corresponding section of the README
 
 ## Link GitHub
 
-xxxxxxxxxxxxxxxxxx
+[GitHub]: https://kenlau94.github.io/ReadMe_Genni/
 
 ## Demonstration
-
-![Demo](./Develop/assets/demo/demo.gif)
